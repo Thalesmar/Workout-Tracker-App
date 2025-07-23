@@ -241,7 +241,7 @@
             padding: 1rem;
             background-color: #f0f0f0;
             color: #555;
-            font-size: clamp(0.7rem, 1.5vw, 0.9rem);
+            font-size: 1rem;
             position: fixed;
             width: 100%;
             bottom: 0;
