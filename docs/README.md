@@ -18,7 +18,7 @@ A comprehensive fitness tracking application designed to help users monitor thei
 
 ## Screenshots
 
-![Screenshot of the application](./assets/image.png)
+![Screenshot of the application](../assets/image.png)
 
 ## Prerequisites
 
