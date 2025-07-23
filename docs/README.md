@@ -18,14 +18,12 @@ A comprehensive fitness tracking application designed to help users monitor thei
 
 ## Screenshots
 
-*Add screenshots of your application here to showcase the interface*
+![Screenshot of the application](./assets/image.png)
 
 ## Prerequisites
 
 Before running this application, make sure you have the following installed:
 
-- Node.js (version 14.0 or higher)
-- npm (Node Package Manager)
 - Modern web browser (Chrome, Firefox, Safari, Edge)
 
 ## Installation
@@ -65,9 +63,7 @@ The application will open in your browser at `http://localhost:3000`
 ## Technology Stack
 
 - **Frontend**: HTML5, CSS3, JavaScript
-- **Framework**: React.js (if applicable)
 - **Storage**: LocalStorage for data persistence
-- **Charts**: Chart.js for progress visualization
 - **Styling**: CSS3 with responsive design principles
 
 ## Project Structure
@@ -98,15 +94,6 @@ Contributions are welcome! If you'd like to contribute to this project:
 5. Push to the branch (`git push origin feature/new-feature`)
 6. Create a Pull Request
 
-## Roadmap
-
-- [ ] User authentication and profiles
-- [ ] Cloud data synchronization
-- [ ] Social features (sharing workouts)
-- [ ] Mobile app version
-- [ ] Integration with fitness trackers
-- [ ] Nutrition tracking
-- [ ] Workout templates and programs
 
 ## Known Issues
 
@@ -129,7 +116,7 @@ If you encounter any issues or have questions:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [MIT license](LICENSE) file for details.
 
 ---
 
