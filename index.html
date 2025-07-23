@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Workout Tracker App</title>
+</head>
+<body>
+    <div class="heading">
+        <h1>Welcome to the Workout Tracker App</h1>
+        <p>Make your fitness journey more fun, focused, and effective.</p>
+    </div>
+
+    <section class="Exercises-Container">
+        <h2>add a new exercise here</h2>
+        <div class="Exercises">
+            <label for="Exercise">Exercise</label>
+            <input type="text" id="Exercise" placeholder="New exercise" required>
+
+            <label for="Sets">Sets</label>
+            <input type="number" id="sets" placeholder="Sets" min="1" max="100" required>
+
+            <label for="Reps">Reps</label>
+            <input type="number" id="reps" placeholder="Reps" min="1" max="100"  required>
+
+            <label for="details">Exercise details</label>
+            <textarea id="details" placeholder="Add exercise details"></textarea>
+
+
+            <button id="showDetail"></button>
+
+        </div>
+
+        <div class="btn">
+            <button type="submit" id="button">submit</button>
+        </div>
+
+        <div class="added-Exercises">
+            <h3>New added exercises</h3>
+
+            <ul id="workout-list"></ul>
+        </div>
+    </section>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
